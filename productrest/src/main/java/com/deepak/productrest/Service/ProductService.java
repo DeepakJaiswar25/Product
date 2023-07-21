@@ -38,4 +38,8 @@ public class ProductService {
 
 		db.deleteById(id);
 	}
+
+	public void updateProduct(Product p) {
+		db.save(p);
+	}
 }
